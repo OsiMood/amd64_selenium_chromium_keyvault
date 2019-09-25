@@ -70,7 +70,7 @@ RUN apt-get remove -y unzip \
 #====================================
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
-ENV appID
-ENV appKey
+ENV appID="set_id"
+ENV appKey="set_key"
 
 WORKDIR /selenium
